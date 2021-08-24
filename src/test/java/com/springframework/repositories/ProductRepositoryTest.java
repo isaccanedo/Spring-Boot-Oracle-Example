@@ -38,7 +38,7 @@ public class ProductRepositoryTest {
         //quando
         productRepository.save(product);
 
-        //then
+        //então
         Assert.assertNotNull(product.getId());
         Product newProduct = productRepository.findById(product.getId()).orElse(null);
         Assert.assertEquals((Long) 1L, newProduct.getId());
