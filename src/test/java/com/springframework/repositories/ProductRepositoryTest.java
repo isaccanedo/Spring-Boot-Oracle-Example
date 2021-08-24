@@ -29,7 +29,7 @@ public class ProductRepositoryTest {
 
     @Test
     public void testPersistence() {
-        //given
+        //dado
         Product product = new Product();
         product.setDescription(PRODUCT_DESCRIPTION);
         product.setImageUrl(IMAGE_URL);
