@@ -35,7 +35,7 @@ public class ProductRepositoryTest {
         product.setImageUrl(IMAGE_URL);
         product.setPrice(BIG_DECIMAL_100);
 
-        //when
+        //quando
         productRepository.save(product);
 
         //then
